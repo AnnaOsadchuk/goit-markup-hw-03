@@ -1,4 +1,4 @@
-# My second project
+# My third project
 
 ## Project name: goit-markup-hw-03
 

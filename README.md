@@ -1,5 +1,5 @@
-# My second project
+# My third project
 
-## Project name: goit-markup-hw-02
+## Project name: goit-markup-hw-03
 
 Author: Anna Osadchuk

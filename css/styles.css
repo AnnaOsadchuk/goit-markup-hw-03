@@ -160,20 +160,20 @@ body {
 }
 .hero-container {
   padding-top: 188px;
-  padding-bottom: 292px;
-  max-width: 496px;
+  padding-bottom: 188px;
+  max-width: 494px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--wight-color);
-  height: 120px;
   margin-left: auto;
   margin-right: auto;
-  /* flex-direction: column; */
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-family: inherit;
@@ -181,21 +181,16 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--wight-color);
-  min-width: 169px;
-  height: 56px;
-  display: inline-block;
   background: var(--normal-btn-bcg-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: 1px solid transparent;
-  /* margin-left: auto;
+  padding: 16px 32px;
+  margin-left: auto;
   margin-right: auto;
-  margin-top: 48px;
-  flex-direction: column;
-  align-items: center; */
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -204,7 +199,8 @@ body {
 
 /* ======Section 2 Our advantages====*/
 .studio-container {
-  padding: 120px 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .advanteg-text {
@@ -235,7 +231,7 @@ body {
 
 /* ------Section 3 What are we doing======= */
 .work-container {
-  padding: 0px 156px 120px;
+  padding-bottom: 120px;
 }
 .section-title {
   font-weight: 700;

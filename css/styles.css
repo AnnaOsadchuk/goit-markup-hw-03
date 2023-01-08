@@ -60,6 +60,9 @@ body {
 }
 
 /* ------HEADER------ */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -157,23 +160,27 @@ body {
 /* ========= HERO========== */
 .hero {
   background: var(--section-bcg-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
-.hero-container {
+/* .hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 494px;
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; */
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: var(--wight-color);
+  letter-spacing: 0.02em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-btn {
   font-family: inherit;
@@ -199,9 +206,8 @@ body {
 }
 
 /* ======Section 2 Our advantages====*/
-.studio-container {
+.section-advantages {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .advanteg-text {
@@ -231,6 +237,11 @@ body {
 }
 
 /* ------Section 3 What are we doing======= */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .work-container {
   padding-bottom: 120px;
 }
@@ -271,6 +282,8 @@ body {
 /* ======FOOTER=========== */
 .footer {
   background: var(--main-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   color: #f4f4fd;
@@ -281,10 +294,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-}
-.foorter-content {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .footer-article {
   max-width: 264px;
@@ -313,13 +322,16 @@ body {
   border-radius: 4px;
 }
 /* ==============PORTFOLIO BTN===========- */
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .btn-container {
   display: flex;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 .section-portfolio > .container {
-  display: flex;
+  display: grid;
   align-items: center;
 }
 .list-btn {
@@ -351,7 +363,6 @@ body {
 
 .card-container {
   display: flex;
-  margin-bottom: 120px;
 }
 .portfolio-list {
   display: flex;
@@ -364,7 +375,9 @@ body {
   flex-basis: calc((100% - 48px) / 3);
 }
 .text-block {
-  border: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
